@@ -1,0 +1,414 @@
+
+body{
+    background-color: black;
+    color: white;
+    
+}
+
+
+.Logo{
+    height: 95px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 5px
+    
+}
+.Logo1{
+    height: 95px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    border-radius: 5px   
+}
+
+
+.first-section{
+    background: black;
+    height: 100px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(174, 171, 171);
+       
+
+}
+
+.middle-section{
+    
+    flex:1;
+    
+    max-width:600px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.AboutUs-button, .Services-button, .Products-button, .ContactUs-button{
+    background-color: black;
+    color:white;
+    border: none;
+    height:36px;
+    width: 105px;
+    cursor:pointer;
+    transition:opacity 0.15s;       
+}
+
+.second-section{
+   	padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;       
+}
+
+.introMessage{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    top: 150px;
+    left: 0;
+    right: 0;
+    gap: 20px;
+    padding-top: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+.Tittle1{
+    font-size: 80px;
+    text-align: center;
+    border-radius: 10px;
+     
+    border-left: 4px solid #5c5d09;
+    border-top: 4px solid #5c5d09;
+    border-bottom: 4px solid #5c5d09;
+    border-right: 4px solid #5c5d09;
+    background-color: rgb(14, 12, 12);
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.introImage{
+    height: 500px;
+    width: 500px;
+}
+
+.followSection{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    top: 150px;
+    left: 0;
+    right: 0;
+    gap: 20px;
+    padding-top: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+.imgGrid{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2,auto);
+    gap: 30px;
+}
+
+.imgnumber2{
+    height: 120px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.followingflex{
+  align-items: left;
+
+}
+
+.followingMessage{
+
+    font-size: 19px;
+    line-height: 2;
+    text-align: center;
+    border-radius: 10px;
+     
+    border-left: 4px solid #5c5d09;
+    border-top: 4px solid #5c5d09;
+    border-bottom: 4px solid #5c5d09;
+    border-right: 4px solid #5c5d09;
+    background-color: rgb(14, 12, 12);
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.followSection2{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    top: 150px;
+    left: 0;
+    right: 0;
+    gap: 20px;
+    padding-top: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+.section2parag{
+    font-size: 19px;
+    line-height: 2;
+    text-align: center;
+    border-radius: 10px;
+     
+    border-left: 4px solid #5c5d09;
+    border-top: 4px solid #5c5d09;
+    border-bottom: 4px solid #5c5d09;
+    border-right: 4px solid #5c5d09;
+    background-color: rgb(14, 12, 12);
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+.section2image{
+    height: 350px;
+    width: auto;
+}
+
+
+
+.media-grid{
+     display:grid;
+     grid-template-columns: repeat(5, 1fr);
+     grid-template-rows: repeat(4,auto);
+     gap: 30px;
+}
+
+.media-grid2{
+        
+    display:grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: repeat(3,auto);
+     gap: 30px;    
+}
+
+.media-grid img{
+    width: 250px;
+    height: 200px;
+}
+.media-grid2 img{
+    width: 250px;
+    height: 200px;    
+}        
+        
+
+
+
+
+.last-section1{
+    padding-top:100px;
+    text-align: center;
+    margin-bottom: 10px;     
+}
+
+
+.bottom.links {
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+.FirstBody{
+    margin-top:130px;
+   
+        
+}
+
+.aboutImg{
+    height: auto;
+    width: 95%;
+    padding-left: 30px;
+    padding-right: 30px;
+
+
+}
+
+.AboutUsSection{
+    margin-top:40px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font: 19px;
+    line-height: 2;
+}
+.AboutUSItem{
+
+    height:fit-content;
+    width: 400px;
+    background-color: rgb(14, 12, 12);
+    border-radius: 10px;
+     
+     border-left: 4px solid #5c5d09;
+     border-top: 4px solid #5c5d09;
+     border-bottom: 4px solid #5c5d09;
+     border-right: 4px solid #5c5d09;
+     
+     /* Center text inside the box */
+     display: flex;
+     flex-direction: column;
+     
+     align-items: center;
+     padding-left:15px;
+     padding-right:15px;
+     text-align: center;
+}
+
+.AboutUs-secondSection{
+    margin-top:40px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font: 19px;
+    line-height: 2;
+}
+
+.QuestionTop{
+    margin-top: 150px;
+   
+}
+
+.QuestionTop h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+.second-section-services{
+    margin-top: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font: 19px;
+    line-height: 2;
+}
+
+.Service1, .Service2, .Service3, .Service4, .Service5, .Service6, .Service7, .Service8{
+    height:400px;
+    width: 400px;
+    background-color: rgb(14, 12, 12);
+     border-radius: 10px;
+     border-left: 4px solid #5c5d09;
+     border-top: 4px solid #5c5d09;
+     border-bottom: 4px solid #5c5d09;
+     border-right: 4px solid #5c5d09;
+     
+     /* Center text inside the box */
+     display: flex;
+     flex-direction: column;
+     
+     align-items: center;
+     padding-left:15px;
+     padding-right:15px;
+     text-align: center;
+
+}
+
+.SecondSection2{
+    margin-top:30px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font: 19px;
+    line-height: 2;
+}
+
+.Psecondsection{
+    margin-top: 150px;
+    display: flex;
+    gap: 10px;
+}
+
+.media-grid2{
+    display:grid;
+    gap: 10px;
+}
+.ProductsMessage{
+    height: fit-content;
+    width: fit-content;
+    font: 19px;
+    line-height: 2;
+    background-color: rgb(14, 12, 12);
+     border-radius: 10px;
+     border-left: 4px solid #5c5d09;
+     border-top: 4px solid #5c5d09;
+     border-bottom: 4px solid #5c5d09;
+     border-right: 4px solid #5c5d09;
+     
+     /* Center text inside the box */
+     display: flex;
+     flex-direction: column;
+     
+     align-items: center;
+     margin-top:100px;
+     padding-right:15px;
+     text-align: center;
+    
+}
+
+
+
+.contactInfo{
+       font-size: 40px;
+        
+       font-weight: bold;
+        
+       text-align: center;
+       padding-top: 250px;
+       
+       padding-bottom: 500px;
+       
+}
+
+.facebook{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50px;
+ height: 50px;
+ border-radius: 8px;
+ padding-bottom: 20px;
+ 
+}
+
+
+.ChatIcon:hover{
+    cursor: pointer;
+}
+
+
